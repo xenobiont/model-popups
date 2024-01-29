@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Task</title>
+		<link rel="stylesheet" href="styles.css" />
+		<script src="index.js" type="module"></script>
+		<script src="task/task.js" type="module"></script>
+	</head>
+	<body>
+		<h2>Modals</h2>
+
+		<!-- Trigger/Open The Modal -->
+		<button class="btn btn--modal" data-target="#first-modal">
+			Open First Modal
+		</button>
+
+		<button class="btn btn--modal" data-target="#second-modal">
+			Open Second Modal
+		</button>
+
+		<button class="btn btn--modal" data-target="#third-modal">
+			Open Third Modal
+		</button>
+
+		<!-- Modal Popup -->
+		<div id="first-modal" class="modal">
+			<!-- Modal content -->
+			<div class="modal-content">
+				<button class="close">&times;</button>
+				<p>First pop-up</p>
+			</div>
+		</div>
+
+		<div id="second-modal" class="modal">
+			<!-- Modal content -->
+			<div class="modal-content">
+				<button class="close">&times;</button>
+				<p>Second pop-up</p>
+			</div>
+		</div>
+
+		<div id="third-modal" class="modal">
+			<!-- Modal content -->
+			<div class="modal-content">
+				<button class="close">&times;</button>
+				<p>Third pop-up</p>
+			</div>
+		</div>
+	</body>
+</html>
